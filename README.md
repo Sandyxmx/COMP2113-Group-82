@@ -3,7 +3,7 @@ Group 82
 
 # Group Members #
 Xiang Mengxuan UID 3035603265
-Zhuang Jinming UID 
+Zhuang Jinming UID 3035951820
 
 # Game Descriptions #
 In Monster Arena, you will encounter one monster each level
