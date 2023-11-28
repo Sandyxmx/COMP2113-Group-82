@@ -1,0 +1,13 @@
+FLAGS = -pedantic-errors -std=c++11
+
+main: main.o
+	g++ $(FLAGS) $^ -o $@
+	rm -f main.o
+
+main.o: main.cpp file.h
+	g++ $(FLAGS) -c $<
+
+clean:
+	rm -f *.o main
+
+.PHONY: clean

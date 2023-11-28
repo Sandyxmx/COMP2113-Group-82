@@ -1,0 +1,18 @@
+In Monster Arena, you will encounter one monster each level
+Upon defeating the monster, you can choose one out of the three
+attributes to upgrade, namely Strength, Agility, and Defense. The fighting
+works pretty much like rock, paper, scissors where you choose to use
+one of the three atributes, and so does the monster.
+- If your move counters the monster's move, your coredponding attribute
+is strengthened by 50% for the round.
+- If you picked the same move as the monster, your coredponding attribute
+remains unchanged.
+- If your move is countered by the monster's move, your coredponding attribute
+is weakened by 50% for the round.
+Counter Relations: Strength > Agility > Defense > Strength
+Eventually, you win if the attribute you picked exceeds that of the monster,
+tie if you and the monster have the same corresponding attributes
+you lose if you are exceeded by the monster.
+You have 3 lives which is deducted by one everytime you lose, and so does the monster.
+Whoever reaches 0 first loses. Your life is restored after each fight.
+Try to beat as many monsters as possible.
